@@ -1,7 +1,7 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
-	//s1 = s1.toLowerCase(); // Convert both strings to lowercase for case-insensitive comparison
-    //s2 = s2.toLowerCase();
+	s1 = s1.toLowerCase(); // Convert both strings to lowercase for case-insensitive comparison
+    s2 = s2.toLowerCase();
     
     for (let i = 0; i <= s1.length - s2.length; i++) {
         let found = true;
